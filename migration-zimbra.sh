@@ -86,7 +86,7 @@ done
 
 shift $((OPTIND-1))
 
-#Variaveis fazias
+#Variaveis vazias
 if [ -z "$DO_LISTA" ] && [ -z "$DO_INTERATIVO" ] ; then
    PrintUsage
 fi
